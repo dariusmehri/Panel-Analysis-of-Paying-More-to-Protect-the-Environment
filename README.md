@@ -44,5 +44,11 @@ R-Squared      :  0.031421
 F-statistic: 11.4407 on 3 and 1058 DF, p-value: 2.1907e-07
 
 
+The results show that the willingness to pay more for the environment is not statistically significant with income or political views (p>>0.05). These results reveal that people between the two waves probably did not change their political views and perhaps income did not change as well. On the other hand, the results for panel wave 3 show that people in 2010, relative to those in 2006, decreased their willingness to pay higher prices for the environment by 0.2 points, controlling for income and political views. 
+
+###Adding Financial Stress (finan4)
+
+
+
 
 
