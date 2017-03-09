@@ -18,8 +18,3 @@ finan4: Measures financial stress, based on the question: Did any of the followi
 
 The output of the OLS regression, with clustered standard errors,  is given below:
 
-	Estimate  	Std. Error  	Pr(>|t|)    
-(Intercept)            	4.25E+00	6.95E-02	< 2.2e-16 ***
-realinc                	1.83E-06	6.29E-07	0.003615 **
-polviews              	-1.96E-01	1.47E-02	< 2.2e-16 ***
-panelwave 3 	-1.82E-01	4.24E-02	1.955e-05 ***
