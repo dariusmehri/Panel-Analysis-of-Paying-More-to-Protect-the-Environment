@@ -18,23 +18,8 @@ finan4: Measures financial stress, based on the question: Did any of the followi
 
 The output of the OLS regression, with clustered standard errors,  is given below:
 
-Coefficients :
-                         		Estimate  	Std. Error  	t-value  	Pr(>|t|) 
-                            
-(Intercept)            	4.2503e+00  	6.9460e-02  	61.1908 	< 2.2e-16 ***
-
-realinc                	1.8307e-06  	6.2854e-07   	2.9127  	0.003615 ** 
-
-polviews              	-1.9649e-01  	1.4710e-02 	-13.3575 	< 2.2e-16 ***
-
-panelwave 3 		-1.8150e-01  	4.2423e-02  	-4.2783 	1.955e-05 ***
-
-Total Sum of Squares:    2963
-
-Residual Sum of Squares: 2732.9
-
-R-Squared      :  0.077626 
-
-      Adj. R-Squared :  0.077501 
-      
-F-statistic: 69.571 on 3 and 2480 DF, p-value: < 2.22e-16---
+	Estimate  	Std. Error  	Pr(>|t|)    
+(Intercept)            	4.25E+00	6.95E-02	< 2.2e-16 ***
+realinc                	1.83E-06	6.29E-07	0.003615 **
+polviews              	-1.96E-01	1.47E-02	< 2.2e-16 ***
+panelwave 3 	-1.82E-01	4.24E-02	1.955e-05 ***
