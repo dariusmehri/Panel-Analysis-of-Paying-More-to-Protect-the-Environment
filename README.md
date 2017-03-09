@@ -30,8 +30,7 @@ The model was run with fixed effects, here are the results:
 
 ![image](https://cloud.githubusercontent.com/assets/11237613/23760006/554c1e5a-04bc-11e7-9320-6c534572fc11.png)
 
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 \n
 Total Sum of Squares:   663
 
 Residual Sum of Squares: 642.17
