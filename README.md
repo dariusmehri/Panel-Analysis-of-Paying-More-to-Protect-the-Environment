@@ -1,0 +1,1 @@
+# Panel-Analysis-of-Paying-More-to-Protect-the-Environment
