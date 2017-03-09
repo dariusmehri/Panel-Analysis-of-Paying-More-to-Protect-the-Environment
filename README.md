@@ -48,6 +48,16 @@ The results show that the willingness to pay more for the environment is not sta
 
 ###Adding Financial Stress (finan4)
 
+![image](https://cloud.githubusercontent.com/assets/11237613/23762979/e675799a-04c5-11e7-8f90-994cd397e770.png)
+
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Total Sum of Squares:    663
+Residual Sum of Squares: 640.09
+R-Squared      :  0.034553 
+      Adj. R-Squared :  0.014703 
+F-statistic: 9.4575 on 4 and 1057 DF, p-value: 1.6353e-07
+
+Adding finan4 (paying bills) does not change the statistical significance of income or political views. Panel wave 3 is still highly statistically significant but there is a slight change in the coefficient (changes from -0.195 to -0.208). Paying bills is slightly statistically significant (p = 0.064). It shows that those who did not have to pay bills are less willing to (-0.163) to pay for the environment compared those who had to pay bills.
 
 
 
