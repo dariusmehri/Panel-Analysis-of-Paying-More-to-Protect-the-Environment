@@ -1,6 +1,8 @@
+##Panel Analysis of Paying More to Protect the Environment
+
 This analysis explored the association between how willing respondents would pay higher prices to protect the environment and income. It is hypothesized that as income increases, the willingness to pay higher prices to protect the environment will also increase. Conversely, as political views become more conservative and if one is pressured to pay bills, the willingness to pay higher prices for the environment should decrease. 
 
-The panel was taken at three intervals, 2006, 2008 and 2010. The dependent variable (willing to pay more for the environment) is only available for panels 2 and 3, and therefore the analysis will be restricted to years 2008 and 2010.  Due to the lack of improvement from the great recession between 2008 and 2010, it is hypothesized that the willingness to pay higher prices for the environment between these two waves should decrease. 
+The panel is from the General Social Survey and was taken at three intervals, 2006, 2008 and 2010. The dependent variable (willing to pay more for the environment) is only available for panels 2 and 3, and therefore the analysis will be restricted to years 2008 and 2010.  Due to the lack of improvement from the great recession between 2008 and 2010, it is hypothesized that the willingness to pay higher prices for the environment between these two waves should decrease. 
 
 Variables
 
@@ -12,3 +14,19 @@ polviews: Modeled as a continuous variable that ranged from 1 to 7, 1 is extreme
 
 finan4: Measures financial stress, based on the question: Did any of the following financial matters happen to you - during the last year were you pressured to pay bills by stores, creditors, or bill collectors? Variable is binary, 1 “yes” and 2 is “no”.
 
+###OLS Regression
+
+The output of the OLS regression, with clustered standard errors,  is given below:
+
+Coefficients :
+                         		Estimate  	Std. Error  	t-value  	Pr(>|t|)    
+(Intercept)            	4.2503e+00  	6.9460e-02  	61.1908 	< 2.2e-16 ***
+realinc                	1.8307e-06  	6.2854e-07   	2.9127  	0.003615 ** 
+polviews              	-1.9649e-01  	1.4710e-02 	-13.3575 	< 2.2e-16 ***
+panelwave 3 		-1.8150e-01  	4.2423e-02  	-4.2783 	1.955e-05 ***
+
+Total Sum of Squares:    2963
+Residual Sum of Squares: 2732.9
+R-Squared      :  0.077626 
+      Adj. R-Squared :  0.077501 
+F-statistic: 69.571 on 3 and 2480 DF, p-value: < 2.22e-16---
