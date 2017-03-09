@@ -26,4 +26,17 @@ These results are what I expected – as income increases, the willingness to pa
 
 ###Panel Analysis using Fixed Effects
 
+The model was run with fixed effects, here are the results:
+
+![image](https://cloud.githubusercontent.com/assets/11237613/23760006/554c1e5a-04bc-11e7-9320-6c534572fc11.png)
+
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Total Sum of Squares:   663
+
+Residual Sum of Squares: 642.17
+
+R-Squared      :  0.031421,  Adj. R-Squared :  0.013383 
+
+F-statistic: 11.4407 on 3 and 1058 DF, p-value: 2.1907e-07
 
