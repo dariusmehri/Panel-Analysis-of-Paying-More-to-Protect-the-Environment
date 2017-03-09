@@ -20,6 +20,13 @@ The output of the OLS regression, with clustered standard errors,  is given belo
 
 ![image](https://cloud.githubusercontent.com/assets/11237613/23759784/c460dde0-04bb-11e7-8f63-940957b460db.png)
 
+Total Sum of Squares:    2963
+Residual Sum of Squares: 2732.9
+R-Squared      :  0.077626 
+      Adj. R-Squared :  0.077501 
+F-statistic: 69.571 on 3 and 2480 DF, p-value: < 2.22e-16
+
+
 The results show a highly statistically significant association between the willingness to pay higher prices to protect the environment and real income, political views and the 2010 panel. However, for income the effect size is small: for every $10,000 increase in income, the willingness to pay more increases by only 0.0183 points.  In addition, for every one unit increase in becoming conservative, the willingness to pay higher prices for the environment decreases by -0.2 points. Panel wave 3 shows that overall, controlling for income and political views, the willingness to pay more to protect the environment in 2010 decreases by 0.181 compared to 2008. 
 
 These results are what I expected – as income increases, the willingness to pay more should go up due to a higher income and the capacity to pay more for the environment. I however expected a larger effect size. The negative association and effect size for political views and panel wave 2010 are what I expected.  Respondents who are more conservative are generally less empathetic to environmental concerns and less willing to pay for it.  In addition, the financial strain due to the great recession that remained unresolved in 2010 meant that respondents were likely less willing to pay higher prices for the environment.
