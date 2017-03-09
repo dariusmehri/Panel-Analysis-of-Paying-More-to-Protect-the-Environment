@@ -18,4 +18,5 @@ finan4: Measures financial stress, based on the question: Did any of the followi
 
 The output of the OLS regression, with clustered standard errors,  is given below:
 
-![image](https://cloud.githubusercontent.com/assets/11237613/23759687/7a263680-04bb-11e7-8875-c448e88da82c.png)
+![image](https://cloud.githubusercontent.com/assets/11237613/23759784/c460dde0-04bb-11e7-8f63-940957b460db.png)
+
