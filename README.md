@@ -1,4 +1,4 @@
-##Panel Analysis of Paying More to Protect the Environment
+## Panel Analysis of Paying More to Protect the Environment
 
 This analysis explored the association between how willing respondents would pay higher prices to protect the environment and income. It is hypothesized that as income increases, the willingness to pay higher prices to protect the environment will also increase. Conversely, as political views become more conservative and if one is pressured to pay bills, the willingness to pay higher prices for the environment should decrease. 
 
@@ -14,7 +14,7 @@ polviews: Modeled as a continuous variable that ranged from 1 to 7, 1 is extreme
 
 finan4: Measures financial stress, based on the question: Did any of the following financial matters happen to you - during the last year were you pressured to pay bills by stores, creditors, or bill collectors? Variable is binary, 1 “yes” and 2 is “no”.
 
-###OLS Regression
+### OLS Regression
 
 The output of the OLS regression, with clustered standard errors,  is given below:
 
@@ -31,7 +31,7 @@ The results show a highly statistically significant association between the will
 
 These results are what I expected – as income increases, the willingness to pay more should go up due to a higher income and the capacity to pay more for the environment. I however expected a larger effect size. The negative association and effect size for political views and panel wave 2010 are what I expected.  Respondents who are more conservative are generally less empathetic to environmental concerns and less willing to pay for it.  In addition, the financial strain due to the great recession that remained unresolved in 2010 meant that respondents were likely less willing to pay higher prices for the environment.
 
-###Panel Analysis using Fixed Effects
+### Panel Analysis using Fixed Effects
 
 The model was run with fixed effects, here are the results:
 
@@ -46,7 +46,7 @@ F-statistic: 11.4407 on 3 and 1058 DF, p-value: 2.1907e-07
 
 The results show that the willingness to pay more for the environment is not statistically significant with income or political views (p>>0.05). These results reveal that people between the two waves probably did not change their political views and perhaps income did not change as well. On the other hand, the results for panel wave 3 show that people in 2010, relative to those in 2006, decreased their willingness to pay higher prices for the environment by 0.2 points, controlling for income and political views. 
 
-###Adding Financial Stress (finan4)
+### Adding Financial Stress (finan4)
 
 ![image](https://cloud.githubusercontent.com/assets/11237613/23762979/e675799a-04c5-11e7-8f90-994cd397e770.png)
 
